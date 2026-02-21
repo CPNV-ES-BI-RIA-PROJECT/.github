@@ -1,7 +1,8 @@
 # CPNV-ES-BI-RIA-PROJECT
 
 
-<img width="1213" height="768" alt="image" src="https://github.com/user-attachments/assets/6bc8c30a-1c6c-4814-8feb-4fe0791f45ae" />
+<img width="1324" height="892" alt="image" src="https://github.com/user-attachments/assets/c40fda8e-6d4c-4e04-9011-49ffc5e9bc22" />
+
 
 # Sprint 001
 
