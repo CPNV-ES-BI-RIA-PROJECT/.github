@@ -28,4 +28,4 @@
 
 ## Sprint duration
 
-    2 weeks — Review and retro scheduled for Friday, March 5, 2026.
+    2 weeks — Review and retro scheduled for Thursday, March 5, 2026.
