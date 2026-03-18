@@ -1,34 +1,5 @@
 # Sprint 001
 
-# Fundamental Principle of the Project
-
-The ETL pipeline must not modify the business logic.
-
-It must only:
-
-* Normalize formats (ICS → JSON → SQL)
-* Ensure that each event retains exactly the same attributes
-* Guarantee traceability through a unique UID
-
-## Business context – “Calendar to Invoice”
-
-A services company (consulting / software development) wants to analyze its employees’ calendars in order to leverage worked time data within a Business Intelligence tool.
-
-Each employee uses a calendar in ICS format to plan their daily activities. Some meetings correspond to billable work for clients, while others relate to non-billable internal activities.
-
-The objective is not to generate invoices directly, but to:
-
-* Extract events from ICS files.
-* Transform these events into a structured format (JSON).
-* Load this data into a single `events` table in a data warehouse.
-
-The BI tool, consuming the data warehouse, will then be responsible for:
-
-* Identifying billable events (via a `[client]` prefix in the description)
-* Calculating durations
-* Applying daily or hourly rates (coming from another data source)
-* Producing the necessary indicators and analyses
-
 ## Goal
     
     For this first version, the EXTRACT layer is only responsible for making available the file it has received itself. There is no filtering and no calls to any external API. It is provided with a single public link.
