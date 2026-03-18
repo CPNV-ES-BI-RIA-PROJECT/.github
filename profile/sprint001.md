@@ -2,11 +2,11 @@
 
 ## Goal
     
-    For this first version, the EXTRACT layer is only responsible for making available the file it has received itself. There is no filtering and no calls to any external API. It is provided with a single public link.
+For this first version, the EXTRACT layer is only responsible for making available the file it has received itself. There is no filtering and no calls to any external API. It is provided with a single public link.
     
-    The TRANSFORM layer is responsible for converting the ICS format into JSON. Each ICS event becomes one JSON object. There is no data cleaning, no specific field formatting, and no date filtering.
+The TRANSFORM layer is responsible for converting the ICS format into JSON. Each ICS event becomes one JSON object. There is no data cleaning, no specific field formatting, and no date filtering.
     
-    The LOAD layer receives a list of events in JSON format and converts them into SQL.
+The LOAD layer receives a unique event in JSON format and converts them into SQL.
 
 ## Constraints
 
