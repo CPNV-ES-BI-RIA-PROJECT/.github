@@ -10,6 +10,7 @@ Process a correctly formatted ICS file containing one or multiple events. The pr
 * Authentication is required.
 * Caching is implemented.
 * Inter-microservice communication is via message broker (not just REST).
+* Deployed on Production Infra.
 
 ## Sprint duration
 
