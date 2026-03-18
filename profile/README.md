@@ -64,5 +64,5 @@ The BI tool, consuming the data warehouse, will then be responsible for:
 ---
 
 * [Sprint 001](./sprint001.md)
-* [Spring 002](./sprint002.md)
+* [Sprint 002](./sprint002.md)
 
