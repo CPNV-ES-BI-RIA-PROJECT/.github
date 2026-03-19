@@ -7,14 +7,14 @@ Process a correctly formatted ICS file containing one or multiple events. The pr
 
 **Constraints / Features**
 
-* Authentication is required.
-* Caching is implemented.
-* Inter-microservice communication is via message broker (not just REST).
-* Deployed on Production Infra.
+-[ ] Authentication is required.
+-[ ] Caching is implemented.
+-[ ] Inter-microservice communication is via message broker (not just REST).
+-[ ] Deployed on Production Infra.
 
 ## Sprint duration
 
-    2 weeks — Review and retro scheduled for Thursday, April 1st, 2026.
+    2 weeks — Review and retro scheduled for Thursday, April 2nd, 2026.
 
 ## Test Data
 
