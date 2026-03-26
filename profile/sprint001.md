@@ -39,19 +39,26 @@ END:VEVENT
 ## 
 
 ```json
-{
-"uid": "john-20250303@mycompany.com",
-"dtstamp": "20250201T080000Z",
-"dtstart": "20250303T090000",
-"dtend": "20250303T150000",
-"summary": "Work session",
-"description": "[acme.ch] Development session",
-"categories": "BUSINESS",
-"organizer": "contact@acme.ch",
-"attendee": "john.doe@mycompany.com",
-"location": "https://maps.google.com/?q=46.2044,6.1432",
-"timezone": "Europe/Bern"
-}
+[
+  {
+      "uid": "john-20250303@mycompany.com",
+      "dtstamp": "2025-02-01 08:00:00",
+      "start": {
+        "value": "2025-03-03 09:00:00",
+        "timezone": "Europe/Bern"
+      },
+      "end": {
+        "value": "2025-03-03 15:00:00",
+        "timezone": "Europe/Bern"
+      },
+      "summary": "Work session",
+      "description": "[acme.ch] Development session",
+      "categories": ["BUSINESS"],
+      "organizer": "contact@acme.ch",
+      "attendees": ["john.doe@mycompany.com"],
+      "location": "https://maps.google.com/?q=46.2044,6.1432"
+  }
+]
 ```
 
 * SQL - DDL
