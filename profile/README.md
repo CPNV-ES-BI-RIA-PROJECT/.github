@@ -49,7 +49,7 @@ The BI tool, consuming the data warehouse, will then be responsible for:
     Sequential pipeline: Extract -> Transform -> Load (E -> T -> L).
     Load step must output SQL files; no direct import into the DataMart.
     No authentication.
-    Internal ELT communication via REST calls (gRPC under evaluation).
+    Internal ELT communication via an MQTT broker (gRPC under evaluation).
     Only the API will be tested; front-end excluded.
     No cache management.
 
